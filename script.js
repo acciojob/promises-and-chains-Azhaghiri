@@ -20,7 +20,7 @@ const ageVerify = new Promise((resolve, reject) =>{
 ageVerify.then(() =>{
     alert(`welcome ${name} you can vote`)
 }).catch(() =>{
-    alert(`Oh sorry ${name}. You aren't old enough.`)
+    alert(`Oh sorry <name>. You aren't old enough.`)
 });
 });
 
